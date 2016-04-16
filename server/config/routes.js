@@ -6,4 +6,15 @@
 
 // the routes.js file must require all of the server controllers("the exact route from the base file") in order to call upon their functions
 
+/*
 
+var users = require(./../controllers/usersAngCtrl.js)
+
+module.exports = function(app){
+	app.get('/getUsers', function(request, response){
+		users.show(request,response);
+	})
+}
+
+
+*/
