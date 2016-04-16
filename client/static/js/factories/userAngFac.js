@@ -7,8 +7,8 @@ app_name_here.factory("FactoryNameHere", function($http){
 
 	// Factory Methods go here
 
-	}
-	
+	};
+	return factory;
 })
 
 */
