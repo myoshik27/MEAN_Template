@@ -4,10 +4,10 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var UsersSchema = new mongoose.Schema({
-	name: {type: String, required: true},
-	created_at: {type: Date, default: Date.now, required: true},
-	orders: [{type: Schema.Types.ObjectId, ref: "Orders"}]
-})
+// var UsersSchema = new mongoose.Schema({
+// 	name: {type: String, required: true},
+// 	created_at: {type: Date, default: Date.now, required: true},
+// 	orders: [{type: Schema.Types.ObjectId, ref: "Orders"}]
+// })
 
-mongoose.model("Users", UsersSchema);
+// mongoose.model("Users", UsersSchema);
